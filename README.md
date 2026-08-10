@@ -98,13 +98,11 @@ equipr install claude-md-auditor/claude-md-auditor
 equipr install recuerd0-memory-graph/recuerd0-memory-graph -a claude-code
 ```
 
-> **Status:** equipr cannot fetch a subdirectory yet. `internal/fetchr/git.go` passes the origin
-> verbatim to `git clone`, so neither `#subpath` nor a GitHub `/tree/<ref>/<path>` URL resolves — both
-> fail at clone time. The model already supports it (`model.Plugin.SourceDir` is what marketplace
-> entries use); what's missing is origin parsing plus an effective-root offset after clone. The
-> commands above are the target shape.
+Each plugin is its own source because the AP spec roots a plugin at a directory and defines no
+multi-plugin index — the `#plugins/<name>` fragment is equipr's addressing, and nothing in this repo
+depends on it. A `/tree/<ref>/<path>` URL copied from the browser works too.
 
-Until then, install by hand — copy or symlink a skill directory into the agent's skills directory:
+Or install by hand — copy or symlink a skill directory into the agent's skills directory:
 
 ```sh
 ln -s "$PWD/plugins/claude-md-auditor/skills/claude-md-auditor" \
