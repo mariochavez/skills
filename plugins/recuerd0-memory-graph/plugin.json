@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "recuerd0-memory-graph",
+  "version": "1.0.0",
+  "description": "Render a Recuerd0 workspace as an interactive force-directed graph — memories as nodes, links as edges, grouped into colored clusters.",
+  "author": {
+    "name": "Mario Alberto Chávez",
+    "email": "mario.chavez@gmail.com",
+    "url": "https://github.com/mariochavez"
+  },
+  "homepage": "https://recuerd0.ai",
+  "repository": "https://github.com/mariochavez/skills",
+  "license": "MIT",
+  "keywords": ["recuerd0", "memory", "knowledge-base", "visualization", "graph", "artifact"]
+}
