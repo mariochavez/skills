@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "claude-md-auditor",
+  "version": "1.0.0",
+  "description": "Audit, optimize, and maintain CLAUDE.md and AGENTS.md instruction files, maximizing behavioral signal per token.",
+  "author": {
+    "name": "Mario Alberto Chávez",
+    "email": "mario.chavez@gmail.com",
+    "url": "https://github.com/mariochavez"
+  },
+  "homepage": "https://github.com/mariochavez/skills/tree/main/plugins/claude-md-auditor",
+  "repository": "https://github.com/mariochavez/skills",
+  "license": "MIT",
+  "keywords": ["claude-md", "agents-md", "context", "instructions", "audit", "tokens"]
+}

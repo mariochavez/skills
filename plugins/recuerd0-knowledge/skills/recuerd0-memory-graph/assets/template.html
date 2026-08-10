@@ -1,0 +1,791 @@
+<!-- @INJECT:TITLE:BEGIN --><title>Recuerd0 Memory Graph — Fragua Canonical Clusters</title><!-- @INJECT:TITLE:END -->
+<style>
+  @font-face {
+    font-family: "Jura";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(data:font/woff2;base64,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) format("woff2");
+  }
+
+  :root {
+    /* ground + surfaces (Recuerd0 tokens, hue 150) — LIGHT */
+    --bg: oklch(99% 0.004 150);
+    --bg-grid: oklch(60% 0.05 150 / 0.05);
+    --panel: oklch(100% 0 0);
+    --panel-edge: oklch(90% 0.01 150);
+    --ink: oklch(14.5% 0 0);
+    --ink-soft: oklch(46% 0.01 150);
+    --ink-faint: oklch(65% 0.01 150);
+    --accent: oklch(52% 0.17 150);
+    --link: oklch(85% 0.014 150 / 0.85);
+    --link-strong: oklch(66% 0.03 150 / 0.7);
+    --shadow: 0 16px 44px -20px oklch(30% 0.06 150 / 0.30);
+
+    /* categorical cluster wheel, anchored on brand green 150 */
+    --c-foundation: oklch(60% 0.13 85);   /* amber  */
+    --c-pipeline:   oklch(53% 0.17 150);  /* green — brand */
+    --c-infra:      oklch(54% 0.14 235);  /* blue   */
+    --c-frontend:   oklch(52% 0.18 305);  /* violet */
+    --c-ops:        oklch(57% 0.17 25);   /* coral  */
+    /* highlight (hi) + shadow (lo) tones for the spherical node gradients */
+    --c-foundation-hi: oklch(73% 0.12 85);  --c-foundation-lo: oklch(48% 0.13 85);
+    --c-pipeline-hi:   oklch(66% 0.16 150); --c-pipeline-lo:   oklch(42% 0.17 150);
+    --c-infra-hi:      oklch(67% 0.13 235); --c-infra-lo:      oklch(43% 0.14 235);
+    --c-frontend-hi:   oklch(65% 0.17 305); --c-frontend-lo:   oklch(41% 0.18 305);
+    --c-ops-hi:        oklch(70% 0.16 25);  --c-ops-lo:        oklch(46% 0.18 25);
+    --node-ink: oklch(100% 0 0);
+
+    --r: 0.5rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: oklch(17% 0.01 150);
+      --bg-grid: oklch(80% 0.05 150 / 0.035);
+      --panel: oklch(21% 0.012 150);
+      --panel-edge: oklch(34% 0.02 150);
+      --ink: oklch(95% 0.005 150);
+      --ink-soft: oklch(65% 0.01 150);
+      --ink-faint: oklch(50% 0.012 150);
+      --accent: oklch(66% 0.17 150);
+      --link: oklch(40% 0.02 150 / 0.7);
+      --link-strong: oklch(52% 0.03 150 / 0.8);
+      --shadow: 0 24px 60px -22px oklch(0% 0 0 / 0.7);
+
+      --c-foundation: oklch(74% 0.13 85);
+      --c-pipeline:   oklch(68% 0.16 150);
+      --c-infra:      oklch(70% 0.13 235);
+      --c-frontend:   oklch(71% 0.16 305);
+      --c-ops:        oklch(69% 0.17 25);
+      --c-foundation-hi: oklch(85% 0.11 85);  --c-foundation-lo: oklch(62% 0.14 85);
+      --c-pipeline-hi:   oklch(80% 0.14 150); --c-pipeline-lo:   oklch(55% 0.17 150);
+      --c-infra-hi:      oklch(82% 0.11 235); --c-infra-lo:      oklch(57% 0.14 235);
+      --c-frontend-hi:   oklch(83% 0.14 305); --c-frontend-lo:   oklch(58% 0.17 305);
+      --c-ops-hi:        oklch(81% 0.15 25);  --c-ops-lo:        oklch(56% 0.18 25);
+      --node-ink: oklch(16% 0.01 150);
+    }
+  }
+  :root[data-theme="light"] {
+    --bg: oklch(99% 0.004 150); --bg-grid: oklch(60% 0.05 150 / 0.05);
+    --panel: oklch(100% 0 0); --panel-edge: oklch(90% 0.01 150);
+    --ink: oklch(14.5% 0 0); --ink-soft: oklch(46% 0.01 150); --ink-faint: oklch(65% 0.01 150);
+    --accent: oklch(52% 0.17 150);
+    --link: oklch(85% 0.014 150 / 0.85); --link-strong: oklch(66% 0.03 150 / 0.7);
+    --shadow: 0 16px 44px -20px oklch(30% 0.06 150 / 0.30);
+    --c-foundation: oklch(60% 0.13 85); --c-pipeline: oklch(53% 0.17 150);
+    --c-infra: oklch(54% 0.14 235); --c-frontend: oklch(52% 0.18 305); --c-ops: oklch(57% 0.17 25);
+    --c-foundation-hi: oklch(73% 0.12 85); --c-foundation-lo: oklch(48% 0.13 85);
+    --c-pipeline-hi: oklch(66% 0.16 150); --c-pipeline-lo: oklch(42% 0.17 150);
+    --c-infra-hi: oklch(67% 0.13 235); --c-infra-lo: oklch(43% 0.14 235);
+    --c-frontend-hi: oklch(65% 0.17 305); --c-frontend-lo: oklch(41% 0.18 305);
+    --c-ops-hi: oklch(70% 0.16 25); --c-ops-lo: oklch(46% 0.18 25);
+    --node-ink: oklch(100% 0 0);
+  }
+  :root[data-theme="dark"] {
+    --bg: oklch(17% 0.01 150); --bg-grid: oklch(80% 0.05 150 / 0.035);
+    --panel: oklch(21% 0.012 150); --panel-edge: oklch(34% 0.02 150);
+    --ink: oklch(95% 0.005 150); --ink-soft: oklch(65% 0.01 150); --ink-faint: oklch(50% 0.012 150);
+    --accent: oklch(66% 0.17 150);
+    --link: oklch(40% 0.02 150 / 0.7); --link-strong: oklch(52% 0.03 150 / 0.8);
+    --shadow: 0 24px 60px -22px oklch(0% 0 0 / 0.7);
+    --c-foundation: oklch(74% 0.13 85); --c-pipeline: oklch(68% 0.16 150);
+    --c-infra: oklch(70% 0.13 235); --c-frontend: oklch(71% 0.16 305); --c-ops: oklch(69% 0.17 25);
+    --c-foundation-hi: oklch(85% 0.11 85); --c-foundation-lo: oklch(62% 0.14 85);
+    --c-pipeline-hi: oklch(80% 0.14 150); --c-pipeline-lo: oklch(55% 0.17 150);
+    --c-infra-hi: oklch(82% 0.11 235); --c-infra-lo: oklch(57% 0.14 235);
+    --c-frontend-hi: oklch(83% 0.14 305); --c-frontend-lo: oklch(58% 0.17 305);
+    --c-ops-hi: oklch(81% 0.15 25); --c-ops-lo: oklch(56% 0.18 25);
+    --node-ink: oklch(16% 0.01 150);
+  }
+
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    background-color: var(--bg);
+    background-image:
+      linear-gradient(var(--bg-grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--bg-grid) 1px, transparent 1px);
+    background-size: 36px 36px;
+    color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #stage { position: fixed; inset: 0; }
+  canvas { display: block; width: 100%; height: 100%; cursor: grab; }
+  canvas.dragging { cursor: grabbing; }
+
+  /* cluster color carrier — set via className, never inline style (CSP-safe) */
+  .cl-foundation { --cc: var(--c-foundation); }
+  .cl-pipeline   { --cc: var(--c-pipeline); }
+  .cl-infra      { --cc: var(--c-infra); }
+  .cl-frontend   { --cc: var(--c-frontend); }
+  .cl-ops        { --cc: var(--c-ops); }
+
+  /* ---- Header ---- */
+  header {
+    position: fixed; top: 0; left: 0; right: 0;
+    padding: 18px 22px 30px; pointer-events: none;
+    background: linear-gradient(to bottom, var(--bg) 12%, transparent);
+    z-index: 5;
+  }
+  .lockup { display: flex; align-items: center; gap: 13px; }
+  .mark {
+    width: 34px; height: 38px; flex: none; color: var(--accent);
+    filter: drop-shadow(0 2px 6px color-mix(in oklch, var(--accent) 40%, transparent));
+  }
+  .lockup-text { display: flex; flex-direction: column; }
+  h1 {
+    font-family: "Jura", system-ui, sans-serif;
+    font-weight: 600; font-size: clamp(21px, 3.4vw, 32px);
+    letter-spacing: 0.005em; margin: 0; color: var(--ink); line-height: 1.05;
+  }
+  h1 .em { color: var(--accent); }
+  .sub {
+    font-size: 12.5px; color: var(--ink-soft); max-width: 54ch; line-height: 1.5;
+    margin: 7px 0 0;
+  }
+  .kicker {
+    font-family: "Geist Mono", ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 10.5px; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 4px;
+  }
+
+  /* ---- Legend ---- */
+  .legend {
+    position: fixed; left: 22px; bottom: 20px; z-index: 5;
+    display: flex; flex-direction: column; gap: 2px;
+    background: var(--panel); border: 1px solid var(--panel-edge);
+    border-radius: var(--r); padding: 12px 14px; box-shadow: var(--shadow);
+  }
+  .legend h2 {
+    font-family: "Geist Mono", ui-monospace, monospace; font-size: 10px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--ink-faint); margin: 0 0 6px;
+  }
+  .legrow {
+    display: flex; align-items: center; gap: 9px; padding: 4px 6px;
+    border-radius: calc(var(--r) - 3px); cursor: pointer; user-select: none;
+    font-size: 12.5px; color: var(--ink); transition: background .12s, opacity .12s;
+  }
+  .legrow:hover { background: color-mix(in srgb, var(--accent) 10%, transparent); }
+  .legrow.off { opacity: 0.35; }
+  .swatch { width: 12px; height: 12px; border-radius: 3px; flex: none; background: var(--cc, var(--ink)); }
+  .legrow .cnt {
+    margin-left: auto; font-family: "Geist Mono", ui-monospace, monospace; font-size: 10.5px;
+    color: var(--ink-faint); padding-left: 10px; font-variant-numeric: tabular-nums;
+  }
+  .legmeta {
+    margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--panel-edge);
+    font-size: 11px; color: var(--ink-soft); line-height: 1.7;
+  }
+  .legmeta .lk { display: inline-flex; align-items: center; gap: 5px; margin-right: 10px; }
+  .lk i { width: 18px; height: 0; border-top: 2px solid var(--link-strong); display: inline-block; }
+  .lk i.dash { border-top-style: dashed; }
+  .lk i.thin { border-top-width: 1px; opacity: .7; }
+
+  /* ---- Controls ---- */
+  .controls { position: fixed; top: 18px; right: 20px; z-index: 6; display: flex; gap: 8px; }
+  .btn {
+    font: inherit; font-size: 12px; color: var(--ink);
+    background: var(--panel); border: 1px solid var(--panel-edge);
+    border-radius: calc(var(--r) - 1px); padding: 7px 12px; cursor: pointer; box-shadow: var(--shadow);
+    display: inline-flex; align-items: center; gap: 6px; transition: border-color .12s, color .12s;
+  }
+  .btn:hover { border-color: var(--accent); color: var(--accent); }
+  .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  /* ---- Detail panel ---- */
+  #detail {
+    position: fixed; top: 0; right: 0; height: 100%; width: min(384px, 88vw);
+    background: var(--panel); border-left: 1px solid var(--panel-edge);
+    box-shadow: var(--shadow); z-index: 8;
+    transform: translateX(102%); transition: transform .32s cubic-bezier(.34,1.56,.64,1);
+    display: flex; flex-direction: column;
+  }
+  #detail.open { transform: translateX(0); }
+  .d-head { padding: 22px 22px 16px; border-bottom: 1px solid var(--panel-edge); position: relative; }
+  .d-badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-family: "Geist Mono", ui-monospace, monospace; font-size: 11px; font-weight: 600;
+    letter-spacing: 0.02em; color: var(--node-ink); background: var(--cc, var(--accent));
+    padding: 4px 10px; border-radius: 100px;
+  }
+  .d-tier {
+    font-family: "Geist Mono", ui-monospace, monospace; font-size: 10px; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--ink-faint); margin-left: 10px;
+  }
+  .d-title {
+    font-family: "Jura", system-ui, sans-serif; font-weight: 600;
+    font-size: 21px; line-height: 1.22; margin: 14px 0 0;
+    color: var(--ink); text-wrap: balance;
+  }
+  .d-body { padding: 18px 22px; overflow-y: auto; flex: 1; }
+  .d-summary { font-size: 13.5px; line-height: 1.62; color: var(--ink-soft); margin: 0 0 20px; }
+  .d-conn h3 {
+    font-family: "Geist Mono", ui-monospace, monospace; font-size: 10px; letter-spacing: .15em;
+    text-transform: uppercase; color: var(--ink-faint); margin: 0 0 9px;
+  }
+  .conn {
+    display: flex; align-items: center; gap: 10px; padding: 8px 9px; border-radius: calc(var(--r) - 2px);
+    cursor: pointer; transition: background .12s; margin-bottom: 2px;
+  }
+  .conn:hover { background: color-mix(in srgb, var(--accent) 9%, transparent); }
+  .conn .dot { width: 9px; height: 9px; border-radius: 3px; flex: none; background: var(--cc, var(--ink)); }
+  .conn .cn-id { font-family: "Geist Mono", ui-monospace, monospace; font-size: 11px; color: var(--ink-faint); flex: none; width: 42px; font-variant-numeric: tabular-nums; }
+  .conn .cn-t { font-size: 12.5px; color: var(--ink); line-height: 1.3; }
+  .conn .cn-rel {
+    margin-left: auto; font-family: "Geist Mono", ui-monospace, monospace; font-size: 9.5px;
+    text-transform: uppercase; letter-spacing: .08em; color: var(--ink-faint); flex: none;
+  }
+  .d-close {
+    position: absolute; top: 16px; right: 16px; width: 30px; height: 30px;
+    border-radius: calc(var(--r) - 2px); border: 1px solid var(--panel-edge); background: transparent;
+    color: var(--ink-soft); cursor: pointer; font-size: 16px; line-height: 1;
+    display: grid; place-items: center;
+  }
+  .d-close:hover { color: var(--accent); border-color: var(--accent); }
+
+  .hint {
+    position: fixed; bottom: 22px; right: 22px; z-index: 4;
+    font-size: 11px; color: var(--ink-faint);
+    font-family: "Geist Mono", ui-monospace, monospace;
+    letter-spacing: .04em; pointer-events: none;
+  }
+  @media (max-width: 640px) {
+    .hint { display: none; }
+    .legend { padding: 9px 11px; }
+    .legmeta { display: none; }
+  }
+</style>
+
+<div id="stage"><canvas id="c"></canvas></div>
+
+<header>
+  <div class="lockup">
+    <svg class="mark" viewBox="0 0 48 54" aria-hidden="true" focusable="false">
+      <g fill="currentColor" fill-rule="nonzero">
+        <rect opacity="0.2" x="16" y="0"  width="32" height="38" rx="7"/>
+        <rect opacity="0.5" x="8"  y="8"  width="32" height="38" rx="7"/>
+        <rect              x="0"  y="16" width="32" height="38" rx="7"/>
+      </g>
+    </svg>
+    <div class="lockup-text">
+      <!-- @INJECT:HEADER:BEGIN -->
+      <div class="kicker">Recuerd0 · workspace 54 · Fragua</div>
+      <h1>The Memory <span class="em">Graph</span></h1>
+      <!-- @INJECT:HEADER:END -->
+    </div>
+  </div>
+  <!-- @INJECT:SUB:BEGIN --><p class="sub">How Fragua's project memories fuse into canonical clusters — each node a memory, each thread a dependency, twin, or reference between them. Click a node to read it.</p><!-- @INJECT:SUB:END -->
+</header>
+
+<div class="controls">
+  <button class="btn" id="reheat" title="Re-run the layout">↻ Reheat</button>
+  <button class="btn" id="theme" title="Toggle theme">◐ Theme</button>
+</div>
+
+<aside class="legend" id="legend">
+  <h2>Clusters</h2>
+  <!-- rows injected -->
+  <div class="legmeta">
+    <span class="lk"><i></i> depends / flow</span>
+    <span class="lk"><i class="dash"></i> twin · peer</span><br>
+    <span class="lk"><i class="thin"></i> references</span>
+  </div>
+</aside>
+
+<div id="detail" aria-hidden="true">
+  <div class="d-head">
+    <button class="d-close" id="dclose" aria-label="Close">✕</button>
+    <span class="d-badge" id="dbadge"></span><span class="d-tier" id="dtier"></span>
+    <h2 class="d-title" id="dtitle"></h2>
+  </div>
+  <div class="d-body">
+    <p class="d-summary" id="dsummary"></p>
+    <div class="d-conn">
+      <h3 id="dconnhead">Connections</h3>
+      <div id="dconn"></div>
+    </div>
+  </div>
+</div>
+
+<div class="hint">drag nodes · scroll to zoom · click to open</div>
+
+<script>
+"use strict";
+
+/* ============================ DATA ============================ */
+/* @INJECT:DATA:BEGIN — replace CLUSTERS, N, and L for the target workspace */
+const CLUSTERS = {
+  foundation: { label: "Foundation & scope", color: "--c-foundation" },
+  pipeline:   { label: "Agent-document pipeline", color: "--c-pipeline" },
+  infra:      { label: "Runtime & transport", color: "--c-infra" },
+  frontend:   { label: "UI & editor", color: "--c-frontend" },
+  ops:        { label: "Ops · testing · site", color: "--c-ops" },
+};
+
+// tier: canon (big canonical), leaf (granular feature memory)
+const N = [
+  // Foundation base
+  ["316","Product / scope","foundation","canon","What Fragua is and the MVP boundary — the product north star every phase is measured against."],
+  ["320","Architecture / how-to","foundation","canon","The house architecture read before introducing any new pattern; the glue the canonical set elaborates."],
+  ["317","Brand / voice","foundation","canon","Brand & voice for UI copy, marketing, and visual language — peer-respectful, plain-spoken, no apologies."],
+  ["318","Tailwind v4 brand tokens","foundation","canon","The Cempasúchil design-token vocabulary consumed by every UI and Brand-Guide surface."],
+
+  // Pipeline — the agent document phases
+  ["439","Foundation canonical","pipeline","canon","The process spine: remote-only, workspace → ready. THE reference for Foundation work and the head of the document pipeline."],
+  ["1303","Product Brief canonical","pipeline","canon","Remote-only create → interview → draft → accept. The first Interviewable agent doc; parent of Research."],
+  ["1304","Research canonical","pipeline","canon","Sibling of Product Brief, gated behind an approved brief: create → interview → research → report → accept."],
+  ["1305","MVP Plan canonical","pipeline","canon","First of three peer Plan-phase agents; synthesizes brief + research into a plan. create → interview → synthesize → plan → accept."],
+  ["1306","Technical Guide canonical","pipeline","canon","Plan-phase peer with two modes (greenfield interview / brownfield codebase analysis); no upstream gate — opportunistic context."],
+  ["1307","Brand Guide canonical","pipeline","canon","Twin of Technical Guide (two modes); produces SVG logos + Tailwind @theme. Brownfield run is brand_signal-conditional, never gates Foundation."],
+  ["1308","FeatureSpec canonical","pipeline","canon","The plural pivot: compose → shape → review → accept → execute → ship. Combines Interviewable shaping + Executable execution."],
+  ["1309","Issue canonical","pipeline","canon","The bug TWIN of FeatureSpec: read-only diagnosis + fix reusing the same Executable stack; approve-for-fix, no KB picker."],
+  ["1310","Execution canonical","pipeline","canon","The ONE Executable stack shared by FeatureSpec + Issue: sweep → worktree→branch→PR → iterate → ship; remote two-plane, rich build recovery."],
+  ["1322","Agent-doc lifecycle UI","pipeline","canon","The shared cancel/retry/reset/approve/edit controls every agent doc reuses — Interviewable + Executable resolved to two shared cards."],
+
+  // Infra — runtime & transport
+  ["1311","Turbo / Hotwire / Realtime","infra","canon","The browser↔server infrastructure every agent process leans on: morph config, broadcast architecture, liveness/self-heal."],
+  ["1312","Agent API / Heartbeat","infra","canon","The remote transport plane (host↔server), twin of 1311: bearer token, adaptive work-poll, atomic claim, idempotent seq-fenced ingest, watchdog."],
+  ["1323","fragua-cli host internals","infra","canon","The host daemon (separate Go repo) — host-side twin of 1312: workdir/git/syncer, concurrency cap, git delivery self-heal."],
+  ["1313","Multi-tenancy / Account-slug","infra","canon","Path-based tenancy: the extractor middleware sets Current.account, flat routes auto-prefix, slug/UUID identifiers, soft-delete."],
+  ["1314","Codex / multi-runtime","infra","canon","The second agent runtime: runtime enum pinned at create, PhaseConfig.for_runtime, codex JSONL mapped onto the AgentRunEvent taxonomy."],
+  ["1315","Cost / usage accounting","infra","canon","Per-turn AgentRunUsage metering, two dialects, workspace/account rollups, pure-CSS charts; rollups never scope .kept."],
+
+  // Frontend — UI & editor
+  ["1250","UI canonical — the rail law","frontend","canon","THE reference for any UI work: the rail law, page shells, sticky chrome. The law every view obeys."],
+  ["1317","maquina_components & frontend gotchas","frontend","canon","The lower-level UI catalog you grep before writing markup: data-attribute API, alert-block traps, dropdown quirks, iOS font sizing."],
+  ["1318","housemd editor","frontend","canon","The Markdown editor subsystem: house-md web component over ActionText::Markdown, survives morph via data-turbo-permanent."],
+
+  // Ops — deployment, testing, site
+  ["1319","Deployment & infrastructure","ops","canon","The ops runbook: Kamal prod, Postgres 18 + backups, R2 storage, agent image sandbox, dependency pins."],
+  ["1316","Testing & DB-portability","ops","canon","Tests that pass bin/ci (SQLite) AND survive prod (PostgreSQL): DISTINCT+ORDER traps, no engine-only SQL, locale leaks."],
+  ["1320","Public / marketing site & guides","ops","canon","The root non-tenanted surface: home actions, light-only marketing, 24-entry Guide registry, full SEO kit, access requests."],
+
+  // Leaf — granular agent-feature memories
+  ["370","Job / service split","pipeline","leaf","StartJob / AdvanceJob / TurnRunner split with a runner: test seam."],
+  ["364","AgentRun#state across turns","pipeline","leaf","AgentRun#state across turns, pre-generated claude_session_id."],
+  ["366","JSON-fence parser","pipeline","leaf","The json-questions / markdown-kind fence parser."],
+  ["470","AgentRunEvent persistence","infra","leaf","Full firehose persisted, filtered at render time."],
+  ["367","Per-user broadcast gating","infra","leaf","Per-user broadcast gating, broadcast_refresh_to, interviewing: local."],
+  ["368","script_name in broadcasts","infra","leaf","script_name in broadcast renders — empty without a request."],
+  ["369","Per-user concurrency lock","pipeline","leaf","Per-user concurrency lock, interviewable_by?, agent_chat/locked."],
+  ["371","Approval as nested resource","pipeline","leaf","Approval flow modeled as a nested acceptance resource."],
+  ["485","Reusable agent_chat partials","pipeline","leaf","Reusable agent_chat/* partials, generic copy, call-site wrapper IDs."],
+  ["506","Timeline / spine gutter","pipeline","leaf","Timeline/spine for agent event lists (components/timeline_gutter)."],
+  ["378","Housemd live-editor quirks","frontend","leaf","Block-span, fill: currentColor, rule quirks in the live editor."],
+  ["514","Spec phase internals","pipeline","leaf","FeatureSpec/shape_spec, SpecContextStager, conceptual plan mode."],
+  ["587","Reset a finished spec","pipeline","leaf","Soft-discard (discarded_at), .kept, resettable_by?, worktree purge."],
+  ["640","Notifications","infra","leaf","User#notify / Notifiable, collapse, tray vs index, Web Push."],
+];
+
+// relations: [a, b, type]  type: flow | twin | ref | rollup
+const L = [
+  // pipeline flow (document phases)
+  ["439","1303","flow"], ["1303","1304","flow"], ["1303","1305","flow"],
+  ["1304","1305","flow"], ["1305","1308","flow"], ["1308","1310","flow"], ["1309","1310","flow"],
+  // twins / peers
+  ["1303","1304","twin"], ["1305","1306","twin"], ["1306","1307","twin"], ["1305","1307","twin"],
+  ["1308","1309","twin"], ["1311","1312","twin"], ["1312","1323","twin"],
+  // references
+  ["1322","1308","ref"], ["1322","1310","ref"], ["1314","1311","ref"], ["1314","1312","ref"],
+  ["1315","1314","ref"], ["1315","1310","ref"], ["1317","1250","ref"], ["1318","1311","ref"],
+  ["1318","1250","ref"], ["1320","1313","ref"], ["1312","1313","ref"], ["1310","1311","ref"],
+  ["1310","1312","ref"], ["1308","1311","ref"], ["1307","1318","ref"],
+  // foundation feeds
+  ["316","1303","ref"], ["316","1305","ref"], ["317","1307","ref"], ["317","1250","ref"],
+  ["317","1320","ref"], ["318","1250","ref"], ["318","1317","ref"], ["320","439","ref"],
+  // leaf rollups
+  ["370","1310","rollup"], ["364","1310","rollup"], ["366","1303","rollup"], ["470","1311","rollup"],
+  ["367","1311","rollup"], ["368","1311","rollup"], ["369","1310","rollup"], ["371","1322","rollup"],
+  ["485","1322","rollup"], ["506","1322","rollup"], ["378","1318","rollup"], ["514","1308","rollup"],
+  ["587","1308","rollup"], ["640","1311","rollup"],
+];
+/* @INJECT:DATA:END */
+
+/* ============================ SETUP ============================ */
+const css = getComputedStyle(document.documentElement);
+const cv = (v) => css.getPropertyValue(v).trim();
+
+const nodes = N.map(([id, title, cluster, tier, summary]) => ({
+  id, title, cluster, tier, summary, x: 0, y: 0, vx: 0, vy: 0, deg: 0, r: 0,
+}));
+const byId = new Map(nodes.map(n => [n.id, n]));
+const links = L.filter(([a,b]) => byId.has(a) && byId.has(b))
+               .map(([a,b,type]) => ({ s: byId.get(a), t: byId.get(b), type }));
+
+links.forEach(l => { l.s.deg++; l.t.deg++; });
+nodes.forEach(n => {
+  const base = n.tier === "canon" ? 9 : 4.5;
+  n.r = base + Math.sqrt(n.deg) * (n.tier === "canon" ? 2.9 : 1.6);
+});
+
+const adj = new Map(nodes.map(n => [n.id, new Set()]));
+links.forEach(l => { adj.get(l.s.id).add(l.t.id); adj.get(l.t.id).add(l.s.id); });
+
+const CK = Object.keys(CLUSTERS);
+const anchors = {};
+CK.forEach((k, i) => {
+  const a = (i / CK.length) * Math.PI * 2 - Math.PI / 2;
+  anchors[k] = { ax: Math.cos(a), ay: Math.sin(a) };
+});
+
+/* ============================ CANVAS ============================ */
+const canvas = document.getElementById("c");
+const ctx = canvas.getContext("2d");
+let W = 0, H = 0, DPR = 1;
+const view = { x: 0, y: 0, k: 1 };
+const hidden = new Set();
+let selected = null, hovered = null;
+let dirty = true;                         // redraw when idle-but-changed
+const TAU = Math.PI * 2;
+
+// interaction state — declared BEFORE the loop starts (avoid TDZ in tick())
+let dragging = null, panning = false, moved = false;
+let last = { x: 0, y: 0 };
+
+function resize() {
+  DPR = Math.min(window.devicePixelRatio || 1, 2);
+  W = window.innerWidth; H = window.innerHeight;
+  canvas.width = W * DPR; canvas.height = H * DPR;
+  ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+}
+window.addEventListener("resize", resize);
+resize();
+
+(function seed() {
+  const R = Math.min(W, H) * 0.30;
+  nodes.forEach((n, i) => {
+    const a = anchors[n.cluster];
+    const jitter = 60 + (i % 7) * 14;
+    const ang = i * 2.399;
+    n.x = W/2 + a.ax * R + Math.cos(ang) * jitter;
+    n.y = H/2 + a.ay * R + Math.sin(ang) * jitter;
+  });
+})();
+
+/* ============================ FORCES ============================ */
+const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+let alpha = 1;
+const P = { charge: -1400, link: 0.045, clusterPull: 0.014, center: 0.006, collidePad: 4, damp: 0.86 };
+
+function linkDist(l) {
+  const b = l.type === "rollup" ? 58 : l.type === "twin" ? 82 : 120;
+  return b + l.s.r + l.t.r;
+}
+
+function tick() {
+  if (alpha < 0.005) return;
+  const cx = W/2, cy = H/2, R = Math.min(W, H) * 0.30;
+
+  for (let i = 0; i < nodes.length; i++) {
+    const a = nodes[i];
+    for (let j = i+1; j < nodes.length; j++) {
+      const b = nodes[j];
+      let dx = a.x - b.x, dy = a.y - b.y;
+      let d2 = dx*dx + dy*dy || 0.01, d = Math.sqrt(d2);
+      const f = (P.charge * alpha) / d2, fx = (dx/d) * f, fy = (dy/d) * f;
+      a.vx -= fx; a.vy -= fy; b.vx += fx; b.vy += fy;
+    }
+  }
+  for (const l of links) {
+    const dx = l.t.x - l.s.x, dy = l.t.y - l.s.y;
+    const d = Math.sqrt(dx*dx + dy*dy) || 0.01;
+    const f = (d - linkDist(l)) * P.link * alpha, fx = (dx/d) * f, fy = (dy/d) * f;
+    l.s.vx += fx; l.s.vy += fy; l.t.vx -= fx; l.t.vy -= fy;
+  }
+  for (const n of nodes) {
+    const a = anchors[n.cluster];
+    const tx = cx + a.ax * R, ty = cy + a.ay * R;
+    n.vx += (tx - n.x) * P.clusterPull * alpha;
+    n.vy += (ty - n.y) * P.clusterPull * alpha;
+    n.vx += (cx - n.x) * P.center * alpha;
+    n.vy += (cy - n.y) * P.center * alpha;
+  }
+  for (let i = 0; i < nodes.length; i++) {
+    const a = nodes[i];
+    for (let j = i+1; j < nodes.length; j++) {
+      const b = nodes[j];
+      const dx = b.x - a.x, dy = b.y - a.y;
+      const d = Math.sqrt(dx*dx + dy*dy) || 0.01, min = a.r + b.r + P.collidePad;
+      if (d < min) {
+        const push = (min - d) / d * 0.5, ox = dx * push, oy = dy * push;
+        a.x -= ox; a.y -= oy; b.x += ox; b.y += oy;
+      }
+    }
+  }
+  for (const n of nodes) {
+    if (n === dragging) continue;
+    n.vx *= P.damp; n.vy *= P.damp; n.x += n.vx; n.y += n.vy;
+  }
+  alpha *= 0.985;
+}
+
+/* ============================ RENDER ============================ */
+function toScreen(n) { return { x: n.x * view.k + view.x, y: n.y * view.k + view.y }; }
+function fromScreen(px, py) { return { x: (px - view.x) / view.k, y: (py - view.y) / view.k }; }
+
+const clusterColor = {};
+function refreshColors() {
+  for (const k in CLUSTERS) {
+    const v = CLUSTERS[k].color;
+    clusterColor[k] = { base: cv(v), hi: cv(v + "-hi"), lo: cv(v + "-lo") };
+  }
+  dirty = true;
+}
+refreshColors();
+
+function activeNeighbors() {
+  const focus = hovered || selected;
+  if (!focus) return null;
+  return { focus, set: adj.get(focus.id) };
+}
+
+function draw() {
+  ctx.clearRect(0, 0, W, H);
+  const foc = activeNeighbors();
+  const isDim = (n) => {
+    if (hidden.has(n.cluster)) return true;
+    if (!foc) return false;
+    return !(n === foc.focus || foc.set.has(n.id));
+  };
+
+  ctx.lineCap = "round";
+  for (const l of links) {
+    if (hidden.has(l.s.cluster) || hidden.has(l.t.cluster)) continue;
+    const s = toScreen(l.s), t = toScreen(l.t);
+    let active = false, dim = false;
+    if (foc) { active = (l.s === foc.focus || l.t === foc.focus); dim = !active; }
+    ctx.beginPath();
+    ctx.moveTo(s.x, s.y); ctx.lineTo(t.x, t.y);
+    ctx.strokeStyle = active ? cv("--accent") : (l.type === "rollup" ? cv("--link") : cv("--link-strong"));
+    ctx.globalAlpha = dim ? 0.12 : (l.type === "ref" ? 0.55 : 0.9);
+    ctx.lineWidth = active ? 2.2 : (l.type === "flow" ? 1.7 : l.type === "twin" ? 1.4 : 1);
+    if (l.type === "twin") ctx.setLineDash([5, 5]); else ctx.setLineDash([]);
+    ctx.stroke();
+
+    if (l.type === "flow" && !dim) {
+      const ang = Math.atan2(t.y - s.y, t.x - s.x);
+      const tr = l.t.r * view.k + 3;
+      const ax = t.x - Math.cos(ang) * tr, ay = t.y - Math.sin(ang) * tr, h = 6;
+      ctx.setLineDash([]);
+      ctx.beginPath();
+      ctx.moveTo(ax, ay);
+      ctx.lineTo(ax - Math.cos(ang - 0.4) * h, ay - Math.sin(ang - 0.4) * h);
+      ctx.lineTo(ax - Math.cos(ang + 0.4) * h, ay - Math.sin(ang + 0.4) * h);
+      ctx.closePath();
+      ctx.fillStyle = active ? cv("--accent") : cv("--link-strong");
+      ctx.globalAlpha = active ? 1 : 0.85;
+      ctx.fill();
+    }
+  }
+  ctx.setLineDash([]); ctx.globalAlpha = 1;
+
+  const nodeInk = cv("--node-ink"), inkFaint = cv("--ink-faint"), ink = cv("--ink"), bg = cv("--bg");
+  // draw canonical hubs last so their labels sit above the leaf field
+  const order = [...nodes].sort((a, b) => (a.tier === "canon") - (b.tier === "canon"));
+
+  for (const n of order) {
+    if (hidden.has(n.cluster)) continue;
+    const s = toScreen(n), r = n.r * view.k, dim = isDim(n), cc = clusterColor[n.cluster];
+    const canon = n.tier === "canon", focused = (n === selected || n === hovered);
+    ctx.globalAlpha = dim ? 0.2 : 1;
+
+    // soft focus halo
+    if (focused && !dim) {
+      ctx.beginPath(); ctx.arc(s.x, s.y, r + 7, 0, TAU);
+      ctx.fillStyle = cc.base; ctx.globalAlpha = 0.18; ctx.fill();
+      ctx.globalAlpha = 1;
+    }
+
+    // flat body
+    ctx.beginPath(); ctx.arc(s.x, s.y, r, 0, TAU);
+    ctx.fillStyle = cc.base; ctx.fill();
+
+    // canonical hubs get a crisp separating ring against the ground
+    if (canon && !dim) { ctx.lineWidth = 1.5; ctx.strokeStyle = bg; ctx.stroke(); }
+
+    // labels
+    const showLabel = !dim && (canon || focused || view.k > 1.35);
+    if (showLabel) {
+      ctx.textAlign = "center"; ctx.textBaseline = "middle";
+      if (canon && r > 15) {
+        ctx.font = `600 11px "Geist Mono", ui-monospace, monospace`;
+        ctx.fillStyle = nodeInk;
+        ctx.fillText(n.id, s.x, s.y);
+      } else {
+        ctx.font = `600 11px "Geist Mono", ui-monospace, monospace`;
+        ctx.fillStyle = inkFaint;
+        ctx.fillText(n.id, s.x, s.y + r + 9);
+      }
+      if (canon) {
+        ctx.save();
+        ctx.font = `600 11.5px "Jura", system-ui, sans-serif`;
+        ctx.shadowColor = bg; ctx.shadowBlur = 4;
+        ctx.fillStyle = ink;
+        ctx.fillText(shortTitle(n.title), s.x, s.y + r + (r > 15 ? 12 : 22));
+        ctx.restore();
+      }
+    }
+  }
+  ctx.globalAlpha = 1;
+}
+
+function shortTitle(t) {
+  const cut = t.split("—")[0].split(" canonical")[0].trim();
+  return cut.length > 26 ? cut.slice(0, 25) + "…" : cut;
+}
+
+function frame() {
+  tick();
+  if (alpha > 0.005 || dirty) { draw(); dirty = false; }
+  requestAnimationFrame(frame);
+}
+
+/* ============================ INTERACTION ============================ */
+function pick(px, py) {
+  const p = fromScreen(px, py);
+  let best = null, bestD = Infinity;
+  for (const n of nodes) {
+    if (hidden.has(n.cluster)) continue;
+    const dx = n.x - p.x, dy = n.y - p.y, d = dx*dx + dy*dy, rr = (n.r + 6) * (n.r + 6);
+    if (d < rr && d < bestD) { best = n; bestD = d; }
+  }
+  return best;
+}
+
+canvas.addEventListener("mousemove", (e) => {
+  const px = e.clientX, py = e.clientY;
+  if (dragging) {
+    const p = fromScreen(px, py);
+    dragging.x = p.x; dragging.y = p.y; dragging.vx = 0; dragging.vy = 0;
+    moved = true; alpha = Math.max(alpha, 0.25); return;
+  }
+  if (panning) { view.x += px - last.x; view.y += py - last.y; last = { x: px, y: py }; moved = true; dirty = true; return; }
+  const h = pick(px, py);
+  if (h !== hovered) { hovered = h; dirty = true; canvas.style.cursor = h ? "pointer" : "grab"; }
+});
+
+canvas.addEventListener("mousedown", (e) => {
+  const n = pick(e.clientX, e.clientY);
+  moved = false;
+  if (n) { dragging = n; canvas.classList.add("dragging"); }
+  else { panning = true; last = { x: e.clientX, y: e.clientY }; canvas.classList.add("dragging"); }
+});
+
+window.addEventListener("mouseup", () => {
+  if (dragging && !moved) select(dragging);
+  else if (panning && !moved) select(null);
+  dragging = null; panning = false; canvas.classList.remove("dragging");
+});
+
+canvas.addEventListener("wheel", (e) => {
+  e.preventDefault();
+  const f = Math.exp(-e.deltaY * 0.0016);
+  const nk = Math.min(3, Math.max(0.4, view.k * f)), p = fromScreen(e.clientX, e.clientY);
+  view.k = nk; view.x = e.clientX - p.x * view.k; view.y = e.clientY - p.y * view.k; dirty = true;
+}, { passive: false });
+
+let touchStart = null;
+canvas.addEventListener("touchstart", (e) => {
+  if (e.touches.length === 1) {
+    const t = e.touches[0], n = pick(t.clientX, t.clientY);
+    touchStart = { x: t.clientX, y: t.clientY, node: n, moved: false };
+    if (n) dragging = n; else { panning = true; last = { x: t.clientX, y: t.clientY }; }
+  }
+}, { passive: true });
+canvas.addEventListener("touchmove", (e) => {
+  if (!touchStart || e.touches.length !== 1) return;
+  const t = e.touches[0]; touchStart.moved = true;
+  if (dragging) { const p = fromScreen(t.clientX, t.clientY); dragging.x = p.x; dragging.y = p.y; alpha = Math.max(alpha, 0.2); }
+  else if (panning) { view.x += t.clientX - last.x; view.y += t.clientY - last.y; last = { x: t.clientX, y: t.clientY }; dirty = true; }
+}, { passive: true });
+canvas.addEventListener("touchend", () => {
+  if (touchStart && !touchStart.moved) select(touchStart.node);
+  dragging = null; panning = false; touchStart = null;
+});
+
+/* ============================ DETAIL PANEL ============================ */
+const panel = document.getElementById("detail");
+const relLabel = { flow: "feeds", twin: "twin", ref: "refs", rollup: "detail" };
+
+function select(n) {
+  selected = n; dirty = true;
+  if (!n) { panel.classList.remove("open"); panel.setAttribute("aria-hidden","true"); return; }
+  const badge = document.getElementById("dbadge");
+  badge.textContent = "#" + n.id;
+  badge.className = "d-badge cl-" + n.cluster;
+  document.getElementById("dtier").textContent = n.tier === "canon" ? "Canonical" : "Feature memory";
+  document.getElementById("dtitle").textContent = n.title;
+  document.getElementById("dsummary").textContent = n.summary;
+
+  const conns = [];
+  for (const l of links) {
+    if (l.s === n) conns.push({ node: l.t, type: l.type });
+    else if (l.t === n) conns.push({ node: l.s, type: l.type });
+  }
+  conns.sort((a,b) => (b.node.tier==="canon") - (a.node.tier==="canon"));
+  const wrap = document.getElementById("dconn");
+  document.getElementById("dconnhead").textContent = `Connections · ${conns.length}`;
+  wrap.textContent = "";
+  for (const c of conns) {
+    const row = document.createElement("div");
+    row.className = "conn";
+    const dot = document.createElement("span"); dot.className = "dot cl-" + c.node.cluster;
+    const id = document.createElement("span"); id.className = "cn-id"; id.textContent = "#" + c.node.id;
+    const tt = document.createElement("span"); tt.className = "cn-t"; tt.textContent = shortTitle(c.node.title);
+    const rl = document.createElement("span"); rl.className = "cn-rel"; rl.textContent = relLabel[c.type];
+    row.append(dot, id, tt, rl);
+    row.addEventListener("click", () => { focusOn(c.node); select(c.node); });
+    wrap.appendChild(row);
+  }
+  panel.classList.add("open"); panel.setAttribute("aria-hidden","false");
+}
+
+function focusOn(n) {
+  view.x = W * 0.40 - n.x * view.k;
+  view.y = H * 0.5 - n.y * view.k;
+  dirty = true;
+}
+
+document.getElementById("dclose").addEventListener("click", () => select(null));
+window.addEventListener("keydown", (e) => { if (e.key === "Escape") select(null); });
+
+/* ============================ LEGEND ============================ */
+const legend = document.getElementById("legend");
+const counts = {};
+nodes.forEach(n => counts[n.cluster] = (counts[n.cluster]||0)+1);
+const metaEl = legend.querySelector(".legmeta");
+for (const k of Object.keys(CLUSTERS)) {
+  const row = document.createElement("div");
+  row.className = "legrow"; row.dataset.k = k;
+  const sw = document.createElement("span"); sw.className = "swatch cl-" + k;
+  const lbl = document.createElement("span"); lbl.textContent = CLUSTERS[k].label;
+  const cnt = document.createElement("span"); cnt.className = "cnt"; cnt.textContent = counts[k];
+  row.append(sw, lbl, cnt);
+  row.addEventListener("click", () => {
+    if (hidden.has(k)) hidden.delete(k); else hidden.add(k);
+    row.classList.toggle("off", hidden.has(k));
+    alpha = Math.max(alpha, 0.15);
+  });
+  legend.insertBefore(row, metaEl);
+}
+
+/* ============================ CONTROLS ============================ */
+document.getElementById("reheat").addEventListener("click", () => { alpha = 1; });
+
+const root = document.documentElement;
+document.getElementById("theme").addEventListener("click", () => {
+  const cur = root.getAttribute("data-theme")
+    || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  root.setAttribute("data-theme", cur === "dark" ? "light" : "dark");
+  refreshColors();
+  if (selected) select(selected);
+});
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", refreshColors);
+
+/* ============================ START ============================ */
+if (reduce) { for (let i = 0; i < 260; i++) tick(); alpha = 0; }
+frame();
+</script>
