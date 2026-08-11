@@ -79,9 +79,11 @@ plugins/
                 └── template.html
 ```
 
-A client loads `plugin.json`, discovers the immediate children of `skills/`, and validates each
-`SKILL.md` against the [Agent Skills specification](https://agentskills.io/specification). Every path a
-plugin references resolves within its own plugin root.
+A client loads `plugin.json`, walks `skills/` for directories holding a `SKILL.md`, and validates each
+against the [Agent Skills specification](https://agentskills.io/specification). Every path a plugin
+references resolves within its own plugin root. The layout above is flat because three skills need no
+grouping — a client that walks the tree (equipr does, since 0.3.1) would equally accept
+`skills/<category>/<name>/SKILL.md`.
 
 ## Installing
 
@@ -93,10 +95,34 @@ plugin. Each plugin is added as its own source, by its directory:
 equipr add https://github.com/mariochavez/skills#plugins/claude-md-auditor
 equipr add https://github.com/mariochavez/skills#plugins/recuerd0-canonical-memory
 equipr add https://github.com/mariochavez/skills#plugins/recuerd0-memory-graph
+```
 
+Each `add` reports what it resolved, and `equipr list` shows it again later:
+
+```console
+$ equipr list
+claude-md-auditor            plugin
+  claude-md-auditor          1.0.0  1 skill
+recuerd0-canonical-memory    plugin
+  recuerd0-canonical-memory  1.0.0  1 skill
+recuerd0-memory-graph        plugin
+  recuerd0-memory-graph      1.0.0  1 skill
+```
+
+Then install. Without `--yes`, equipr prompts for which agents to install into,
+pre-checking every one it found — space toggles, enter confirms:
+
+```sh
 equipr install claude-md-auditor/claude-md-auditor
 equipr install recuerd0-memory-graph/recuerd0-memory-graph -a claude-code
+
+# non-interactive: every agent equipr finds
+equipr install claude-md-auditor/claude-md-auditor --yes
 ```
+
+Use **equipr 0.3.1 or newer**. Earlier versions left the prompt's options
+unchecked, so pressing enter selected nothing and installed nothing while
+reporting that the plugin had no installable components.
 
 Each plugin is its own source because the AP spec roots a plugin at a directory and defines no
 multi-plugin index — the `#plugins/<name>` fragment is equipr's addressing, and nothing in this repo
