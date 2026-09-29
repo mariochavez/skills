@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "swift-simplifier",
+  "version": "0.1.0",
+  "description": "Simplifies and refines Swift and SwiftUI code toward plain, value-oriented, main-actor-first Swift while preserving exact behavior.",
+  "author": {
+    "name": "Mario Alberto Chávez",
+    "email": "mario.chavez@gmail.com",
+    "url": "https://github.com/mariochavez"
+  },
+  "homepage": "https://github.com/mariochavez/skills/tree/main/plugins/swift-simplifier",
+  "repository": "https://github.com/mariochavez/skills",
+  "license": "MIT",
+  "keywords": ["swift", "swiftui", "refactoring", "code-quality", "concurrency"]
+}
