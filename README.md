@@ -155,9 +155,9 @@ recuerd0-canonical-memory    plugin
 recuerd0-memory-graph        plugin
   recuerd0-memory-graph      1.0.0  1 skill
 rust-simplifier              plugin
-  simplify-rust              0.1.0  1 skill
+  rust-simplifier            0.1.0  1 skill
 swift-simplifier             plugin
-  simplify-swift             0.1.0  1 skill
+  swift-simplifier           0.1.0  1 skill
 ```
 
 Then install. Without `--yes`, equipr prompts for which agents to install into,
@@ -166,11 +166,14 @@ pre-checking every one it found — space toggles, enter confirms:
 ```sh
 equipr install claude-md-auditor/claude-md-auditor
 equipr install recuerd0-memory-graph/recuerd0-memory-graph -a claude-code
-equipr install rust-simplifier/simplify-rust
+equipr install rust-simplifier/rust-simplifier -a claude-code -a pi
 
 # non-interactive: every agent equipr finds
 equipr install claude-md-auditor/claude-md-auditor --yes
 ```
+
+The argument is `<source>/<plugin>`, and both are the directory name under `plugins/`, not the skill
+name — `rust-simplifier/rust-simplifier` installs the `simplify-rust` skill.
 
 Use **equipr 0.3.1 or newer**. Earlier versions left the prompt's options
 unchecked, so pressing enter selected nothing and installed nothing while
